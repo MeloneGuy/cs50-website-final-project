@@ -21,7 +21,7 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -39,10 +39,14 @@ body {
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
-    position: absolute; /* Position it absolutely within .topnav */
-    top: 50%; /* Center it vertically */
-    right: 16px; /* Adjust the right margin as needed */
-    transform: translateY(-50%); /* Vertically center it using translateY */
+    position: absolute;
+    /* Position it absolutely within .topnav */
+    top: 50%;
+    /* Center it vertically */
+    right: 16px;
+    /* Adjust the right margin as needed */
+    transform: translateY(-50%);
+    /* Vertically center it using translateY */
 }
 
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
@@ -65,10 +69,7 @@ body {
 /* Styles for Header Elements (h1, h2, h3, etc.) */
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
     color: #fffeff;
     /* White headers */
     text-align: center;
@@ -90,4 +91,75 @@ footer {
 main {
     padding-top: 20px;
     /* Adjust the padding as needed */
+}
+
+/* Slider styles */
+.slider {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 30px;
+    width: 90px;
+    border: solid 4px white;
+    border-radius: 20px;
+    transition: background 0.5s;
+    z-index: 1;
+    /* Place the slider above the navigation links */
+}
+
+.slider.light {
+    background: #80D8FF;
+}
+
+.slider.dark {
+    background: #37474F;
+}
+
+.slider-toggle {
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    height: 22px;
+    width: 22px;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: left 0.5s, background 0.5s;
+}
+
+.slider-toggle.light {
+    border: solid 2px #998c00;
+    background: #FFEA00;
+}
+
+.slider-toggle.dark {
+    border: solid 2px #ecf0f2;
+    background: #CFD8DC;
+    left: 62px;
+}
+
+.slider-accent {
+    position: relative;
+    z-index: -1;
+    box-shadow: 0 0 transparent;
+    transition: box-shadow 0.5s;
+}
+
+.slider-accent.light {
+    left: 40px;
+    top: -13px;
+    background: #ffffff;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    box-shadow: 8px 0 #ffffff, 15px 0 #ffffff, 8px -5px #ffffff;
+}
+
+.slider-accent.dark {
+    top: -13px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    box-shadow: 15px 0 #cccccc, 45px -5px #cccccc, 30px 5px #cccccc;
 }
