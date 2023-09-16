@@ -5,10 +5,12 @@ slider_toggle.onclick = toggle;
 
 function toggle() {
   if (slider_toggle.classList.contains("light")) {
+    // Replaces slider.light to slider.dark theme
     slider.classList.replace("light", "dark");
     slider_accent.classList.replace("light", "dark");
     slider_toggle.classList.replace("light", "dark");
   } else {
+    // Replaces slider.dark to slider.light theme
     slider.classList.replace("dark", "light");
     slider_accent.classList.replace("dark", "light");
     slider_toggle.classList.replace("dark", "light");
