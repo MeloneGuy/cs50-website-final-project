@@ -166,3 +166,8 @@ main {
     /* Stars */
     box-shadow: 15px 0 #cccccc, 45px -5px #cccccc, 30px 5px #cccccc;
 }
+
+
+.hidden {
+    display: none;
+}

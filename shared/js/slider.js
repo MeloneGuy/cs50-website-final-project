@@ -1,6 +1,9 @@
 let slider = document.getElementsByClassName("slider")[0];
 let slider_accent = document.getElementsByClassName("slider-accent")[0];
 let slider_toggle = document.getElementsByClassName("slider-toggle")[0];
+let dayText = document.getElementById("day-text");
+let nightText = document.getElementById("night-text");
+
 slider_toggle.onclick = toggle;
 
 function toggle() {
@@ -9,10 +12,18 @@ function toggle() {
     slider.classList.replace("light", "dark");
     slider_accent.classList.replace("light", "dark");
     slider_toggle.classList.replace("light", "dark");
+
+    // Show the day text and hide the night text
+    dayText.classList.remove("hidden");
+    nightText.classList.add("hidden");
   } else {
     // Replaces slider.dark to slider.light theme
     slider.classList.replace("dark", "light");
     slider_accent.classList.replace("dark", "light");
     slider_toggle.classList.replace("dark", "light");
+
+    // Show the night text and hide the day text
+    dayText.classList.add("hidden");
+    nightText.classList.remove("hidden");
   }
 }
