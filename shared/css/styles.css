@@ -1,8 +1,4 @@
-/* General Styles */
-body {
-    background-color: #1c1e26;
-    /* Light Gray */
-}
+/* Top Navigation Bar Section */
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -66,32 +62,14 @@ body {
     }
 }
 
-/* Styles for Header Elements (h1, h2, h3, etc.) */
-h1,
-h2,
-h3 {
-    color: #fffeff;
-    /* White headers */
-    text-align: center;
-}
 
-/* Styles for Paragraphs and Footer */
-p,
-footer {
-    color: #767a81;
-    /* Light gray <p> text */
-    max-width: 600px;
-    /* Adjust the maximum width as needed */
-    margin-left: auto;
-    /* Center-align the <p> elements on the page */
-    margin-right: auto;
-}
 
-/* Styles for Main Content Area */
-main {
-    padding-top: 20px;
-    /* Adjust the padding as needed */
-}
+
+
+
+
+
+/* Slider in top navigation bar for day & night style */
 
 /* Slider styles */
 .slider {
@@ -168,6 +146,56 @@ main {
 }
 
 
+
+
+
+
+
+/* Body for dark style */
+body {
+    background-color: #1c1e26;
+    /* Light Gray */
+}
+
+
+
+
+
+
+
+/* Styles for Header Elements (h1, h2, h3, etc.) */
+h1,
+h2,
+h3 {
+    color: #fffeff;
+    /* White headers */
+    text-align: center;
+}
+
+/* Styles for "night mode" elements (initially hidden) */
+#night-text.hidden {
+    display: none;
+}
+
+/* Class used for hiding elements */
 .hidden {
     display: none;
+}
+
+/* Styles for Paragraphs and Footer */
+p,
+footer {
+    color: #767a81;
+    /* Light gray <p> text */
+    max-width: 600px;
+    /* Adjust the maximum width as needed */
+    margin-left: auto;
+    /* Center-align the <p> elements on the page */
+    margin-right: auto;
+}
+
+/* Styles for Main Content Area */
+main {
+    padding-top: 20px;
+    /* Adjust the padding as needed */
 }

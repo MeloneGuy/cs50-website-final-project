@@ -13,17 +13,17 @@ function toggle() {
     slider_accent.classList.replace("light", "dark");
     slider_toggle.classList.replace("light", "dark");
 
-    // Show the day text and hide the night text
-    dayText.classList.remove("hidden");
-    nightText.classList.add("hidden");
+    // When switched to "light" activates all day text
+    dayText.classList.add("hidden");
+    nightText.classList.remove("hidden");
   } else {
     // Replaces slider.dark to slider.light theme
     slider.classList.replace("dark", "light");
     slider_accent.classList.replace("dark", "light");
     slider_toggle.classList.replace("dark", "light");
 
-    // Show the night text and hide the day text
-    dayText.classList.add("hidden");
-    nightText.classList.remove("hidden");
+    // When switched to "dark" activates all night text
+    dayText.classList.remove("hidden");
+    nightText.classList.add("hidden");
   }
 }
