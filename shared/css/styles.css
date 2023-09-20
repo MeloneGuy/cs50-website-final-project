@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* Top Navigation Bar Section */
 
 /* Add a black background color to the top navigation */
@@ -148,18 +153,11 @@
 
 
 
-
-
-
 /* Body for dark style */
 body {
     background-color: #1c1e26;
     /* Light Gray */
 }
-
-
-
-
 
 
 
@@ -170,16 +168,6 @@ h3 {
     color: #fffeff;
     /* White headers */
     text-align: center;
-}
-
-/* Styles for "night mode" elements (initially hidden) */
-#night-text.hidden {
-    display: none;
-}
-
-/* Class used for hiding elements */
-.hidden {
-    display: none;
 }
 
 /* Styles for Paragraphs and Footer */
@@ -198,4 +186,16 @@ footer {
 main {
     padding-top: 20px;
     /* Adjust the padding as needed */
+}
+
+.day {
+    display: block;
+}
+
+.night {
+    display: none;
+}
+
+.night p {
+    color:#ebd915;
 }
