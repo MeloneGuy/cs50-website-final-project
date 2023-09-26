@@ -9,8 +9,8 @@
 </head>
 
 <body>
+    <!-- Top navigation -->
     <nav>
-        <!-- Top navigation -->
         <div class="topnav">
             <!-- Left-aligned links (default) -->
             <a href="index.html">Homepage</a>
@@ -29,12 +29,12 @@
     </nav>
 
     <main>
-        <!-- div that is mutual for day and night-->
+        <!-- div that is mutual for day and night page-->
         <div class="mutual">
             <header>
                 <h1 class="white-text">Welcome to MeloneGuy.Dev - Your Portal to My World!</h1>
             </header>
-            <article>
+            <article id="intromutual">
                 <section>
                     <p>Explore my portfolio and toggle between 'Day 🌟' and 'Night 🌙' modes to discover two unique
                         perspectives. By day, you'll find career insights and achievements. At night, dive into my
@@ -45,43 +45,56 @@
 
         <!-- div for day page-->
         <div class="day">
-            <!-- About me professionally section -->
-            <article>
+            <!-- About me professionally introduction section -->
+            <article id="introday">
                 <section>
                     <h2>About me professionally</h2>
-                    <p>I'm genuinely passionate about learning and exploring a wide range of interests. I find joy in
-                        diving into new topics, whether it's delving into a new project, picking up a new hobby, or
-                        uncovering fascinating facts about the world.</p>
+                    <p>I have an unquenchable thirst for knowledge and a relentless curiosity that drives me to explore
+                        a diverse array of subjects. Whether I'm embarking on a new work project, honing my expertise,
+                        or tackling a fresh challenge, my passion for learning is at the forefront of everything I do.
+                    </p>
                 </section>
             </article>
 
-            <!-- Skills section -->
-            <article>
+            <!-- Technical skills section -->
+            <article id="technicalskills">
                 <section>
-                    <h2>Skills</h2>
+                    <h2>Technical skills</h2>
                 </section>
             </article>
 
-            <!-- Work Experience section -->
-            <article>
+            <article id="work-experience">
+                <h2>Work Experience</h2>
+
+                <!-- Job 1: Marketing & Sales -->
                 <section>
-                    <h2>Work Experience</h2>
+                    <h3>Marketing & Sales</h3>
+                    <p>I started my career with a Bachelor's degree in Marketing & Sales. This foundation helped me
+                        understand the dynamics of customer engagement and market strategies. It laid the groundwork for
+                        my future roles in tech.</p>
+                </section>
+
+                <!-- Job 2: Senior Quality Engineer -->
+                <section>
+                    <h3>Senior Quality Engineer (Test Automation)</h3>
+                    <p>As a Senior Quality Engineer, I specialized in Test Automation. My role involved ensuring the
+                        quality and reliability of software through automated testing. I honed my technical skills and
+                        learned the importance of precision and efficiency in software development.</p>
+                </section>
+
+                <!-- Job 3: Aspiring Engineering Manager -->
+                <section>
+                    <h3>Aspiring Engineering Manager</h3>
+                    <p>My career aspirations have evolved, and I'm currently on a journey to become an Engineering
+                        Manager. This role allows me to combine my passion for technology, leadership, and strategy. I
+                        thrive on the challenges of managing both tech and people to achieve meaningful results.</p>
                 </section>
             </article>
 
             <!-- Certifications section -->
-            <article>
+            <article id="certifications">
                 <section>
                     <h2>Certifications</h2>
-                </section>
-            </article>
-
-            <!-- Promotional flyer section-->
-            <article>
-                <section>
-                    <h2>Promotional flyer</h2>
-                    <p>Created a flyer for a previous job where I had the honor of being recognized as "Employee of the
-                        Year".</p>
                 </section>
             </article>
         </div>
@@ -89,17 +102,24 @@
         <!-- div for night page-->
         <div class="night">
             <!-- Introtext Night-->
-            <article>
-                <!-- About me personally section -->
+            <article id="intronight">
+                <!-- About me personally introduction section -->
                 <section>
                     <h2>About me personally</h2>
-                    <p>I'm genuinely passionate about learning and exploring a wide range of interests. I find joy in
-                        diving into new topics, whether it's delving into a new project, picking up a new hobby, or
-                        uncovering fascinating facts about the world.</p>
+                    <p>On a personal level, I'm an enthusiastic seeker of knowledge who delights in the discovery of new
+                        horizons. Whether it's pursuing a new hobby, immersing myself in a project, or unraveling the
+                        mysteries of the world, my boundless curiosity fuels my sense of wonder and adventure.</p>
                 </section>
             </article>
 
-            <article>
+            <!-- Interpersonal skills section -->
+            <article id="interpersonalskills">
+                <section>
+                    <h2>Interpersonal skills</h2>
+                </section>
+            </article>
+
+            <article id="funfacts">
                 <!-- Fun Facts section -->
                 <section>
                     <h2>Fun Facts</h2>
@@ -107,14 +127,15 @@
                     <section>
                         <h3>Fun Fact 1</h3>
                         <p>One of my goofy fun facts is that I have an undeniable guilty pleasure for indulging in the
-                            delightful world of Kung Fu Panda movies. There's just something about Po's adventures and
+                            delightful world of Kung Fu Panda movies. There's just something about Po's clumsy
+                            adventures and
                             the wisdom of Master Shifu that never fails to bring a smile to my face!</p>
                     </section>
                     <!-- Space to add more fun facts if I want to -->
                 </section>
             </article>
 
-            <article>
+            <article id="quotes">
                 <!-- Favorite Quotes section -->
                 <section>
                     <h2>Favorite Quotes</h2>
@@ -140,34 +161,27 @@
                 </section>
             </article>
 
-            <article>
-                <section>
-                    <!--Skills-->
-                </section>
-            </article>
-
-            <article>
+            <article id="hobbies">
                 <!-- Hobbies and interests -->
                 <h2>Hobbies and interests</h2>
 
                 <!-- Traveling section -->
                 <section>
                     <h3>Traveling</h3>
-                    <p>I have an unyielding passion for exploring Earth's natural wonders, diverse cultures, and the
-                        serene beauty of our planet's landscapes. Traveling allows me to immerse myself in the vibrant
-                        tapestry of life, fostering a deep connection with both nature and the world's inhabitants. It's
-                        a journey where I can witness the grandeur of the great outdoors and the intricate beauty of
-                        plants and wildlife.</p>
+                    <p>I have a passion for exploring Earth's natural wonders, diverse cultures, and the
+                        beauty of our planet's landscapes. Traveling allows me to immerse myself in nature and
+                        cities. It's a journey where I can witness the grandeur of the great outdoors and the intricate
+                        beauty of plants and wildlife.</p>
                 </section>
 
                 <!-- Cooking section -->
                 <section>
                     <h3>Cooking for Friends and Family</h3>
-                    <p>In my kitchen, I unleash my culinary creativity by infusing flavors from around the world into
-                        our meals, one delicious dish at a time. I have a deep passion for experimenting with diverse
-                        cuisines and savor the joy of cooking dishes from various cultures, each with its unique taste
-                        and character. It's a delicious journey of cultural exploration on every plate. I dream of one
-                        day creating my own cookbook, a way to share my love for diverse flavors with the world.</p>
+                    <p>In my kitchen, I try to unleash my culinary creativity by infusing flavors from around the world
+                        into our meals, one delicious dish at a time. I have a deep passion for experimenting with
+                        diverse cuisines and savor the joy of cooking dishes from various cultures, each with its unique
+                        taste and character. It's a delicious journey of cultural exploration on every plate. I dream of
+                        one day creating my own cookbook, a way to share my love for diverse flavors with the world.</p>
                 </section>
 
                 <!-- Gaming section -->
