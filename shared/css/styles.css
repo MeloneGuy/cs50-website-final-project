@@ -1,3 +1,11 @@
+/* Colors Used */
+:root {
+    --day-color1: #3498db;
+    --day-color2: #e74c3c;
+    --day-color3: #333;
+  }
+
+
 /* Top Navigation Bar Section */
 
 /* Add a black background color to the top navigation */
