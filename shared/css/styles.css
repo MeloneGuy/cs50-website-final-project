@@ -1,12 +1,13 @@
 /* Style colors used */
 :root {
-    --day-color1: #3498db;
-    --day-color2: #f2f2f2;
-    --day-color3: #767a81;
+    --shared-color1: #767a81;
 
-    --night-color1: #1a191d11;
-    --night-color2: #f2f2f2;
-    --night-color3: #767a81;
+    --day-color1: #80D8FF;
+    --day-color2: #998c00;
+    --day-color3: #FFEA00;
+
+    --night-color1: #1a191d;
+    --night-color2: #37474F;
   }
 
 
@@ -20,14 +21,14 @@
     /* Position it at the top of the viewport */
     width: 100%;
     /* Make it span the full width of the viewport */
-    background-color: #1a191d11;
+    background-color: transparent;
     overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;
@@ -36,7 +37,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: white;
     color: black;
 }
 
@@ -99,11 +100,11 @@
 }
 
 .slider.light {
-    background: #80D8FF;
+    background: var(--day-color1);
 }
 
 .slider.dark {
-    background: #37474F;
+    background: var(--night-color2);
 }
 
 .slider-toggle {
@@ -120,14 +121,14 @@
 }
 
 .slider-toggle.light {
-    border: solid 2px #998c00;
-    background: #FFEA00;
+    border: solid 2px var(--day-color2);
+    background: var(--day-color3);
 }
 
 .slider-toggle.dark {
-    border: solid 2px #ecf0f2;
+    border: solid 2px white;
     background: #CFD8DC;
-    left: 62px;
+    left: 60px;
 }
 
 .slider-accent {
@@ -140,12 +141,12 @@
 .slider-accent.light {
     left: 44px;
     top: -13px;
-    background: #ffffff;
+    background: white;
     width: 15px;
     height: 15px;
     border-radius: 5px;
     /* Cloud */
-    box-shadow: 8px 0 #ffffff, 15px 0 #ffffff, 8px -5px #ffffff;
+    box-shadow: 8px 0 white, 15px 0 white, 8px -5px white;
 }
 
 .slider-accent.dark {
@@ -162,7 +163,7 @@
 
 /* Body for dark style */
 body {
-    background-color: #1a191d;
+    background-color: var(--night-color1);
     /* Light Gray */
 }
 
@@ -180,7 +181,7 @@ h3 {
 /* Styles for Paragraphs and Footer */
 p,
 footer {
-    color: #767a81;
+    color: var(--shared-color1);
     /* Light gray <p> text */
     max-width: 600px;
     /* Adjust the maximum width as needed */
@@ -202,7 +203,7 @@ header {
 }
 
 .night p {
-    color:#767a81;
+    color:var(--shared-color1);
 }
 
 .skills_skill {
@@ -211,8 +212,8 @@ header {
     margin-right: 4px;
     margin-bottom: 4px;
     font-size: 17px;
-    background: #5b5b5b;
+    background: var(--night-color2);
     border-radius: 5px;
     font-weight: 600;
-    color: var(--day-color2);
+    color: white;
 }
