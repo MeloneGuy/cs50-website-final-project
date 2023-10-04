@@ -1,8 +1,12 @@
-/* Colors Used */
+/* Style colors used */
 :root {
     --day-color1: #3498db;
-    --day-color2: #e74c3c;
-    --day-color3: #333;
+    --day-color2: #f2f2f2;
+    --day-color3: #767a81;
+
+    --night-color1: #1a191d11;
+    --night-color2: #f2f2f2;
+    --night-color3: #767a81;
   }
 
 
@@ -199,4 +203,16 @@ header {
 
 .night p {
     color:#767a81;
+}
+
+.skills_skill {
+    display: inline-block;
+    padding: 3px 6px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-size: 17px;
+    background: #5b5b5b;
+    border-radius: 5px;
+    font-weight: 600;
+    color: var(--day-color2);
 }
