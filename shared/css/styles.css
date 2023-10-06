@@ -217,3 +217,17 @@ header {
     font-weight: 600;
     color: white;
 }
+
+#images-container {
+    display: flex;
+    margin-bottom: 4px;
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+    width: 100%;
+    white-space: nowrap;
+}
+
+.image {
+    width: auto;
+    height: 300px;
+    margin-right: 5px; /* Add margin to the right of each image */
+}
