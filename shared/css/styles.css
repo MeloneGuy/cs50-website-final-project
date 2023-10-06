@@ -178,18 +178,6 @@ h3 {
     text-align: center;
 }
 
-/* Styles for Paragraphs and Footer */
-p,
-footer {
-    color: var(--shared-color1);
-    /* Light gray <p> text */
-    max-width: 600px;
-    /* Adjust the maximum width as needed */
-    margin-left: auto;
-    /* Center-align the <p> elements on the page */
-    margin-right: auto;
-}
-
 header {
     padding-top: 50px;
 }
@@ -202,8 +190,16 @@ header {
     display: none;
 }
 
-.night p {
-    color:var(--shared-color1);
+/* Shared Styles for Paragraphs and Footer */
+p,
+footer {
+    color: var(--shared-color1);
+    /* Light gray <p> text */
+    max-width: 600px;
+    /* Adjust the maximum width as needed */
+    margin-left: auto;
+    /* Center-align the <p> elements on the page */
+    margin-right: auto;
 }
 
 .skills_skill {
