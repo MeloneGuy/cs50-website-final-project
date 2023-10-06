@@ -89,7 +89,6 @@
     border-radius: 20px;
     transition: background 0.5s;
     z-index: 1;
-    /* Place the slider above the navigation links */
 }
 
 .slider.light {
