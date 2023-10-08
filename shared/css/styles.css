@@ -79,10 +79,9 @@
 
 /* Slider styles */
 .slider {
-    position: absolute;
-    left: 15%;
-    top: 50%;
-    transform: translateY(-50%);
+    position: fixed;
+    left: 150px;
+    top: 10px;
     height: 30px;
     width: 90px;
     border: solid 4px white;
