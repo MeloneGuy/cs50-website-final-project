@@ -6,6 +6,11 @@
     --day-color2: #998c00;
     --day-color3: #FFEA00;
 
+    /*Work Experience collapsible colors*/
+    --day-color4: #006da8;
+    --day-color5: #0096e7;
+    --day-color6: #00527e;
+
     --night-color1: #1a191d;
     --night-color2: #37474F;
   }
@@ -205,6 +210,12 @@ footer {
     color: white;
 }
 
+.skills-container {
+    background: var(--shared-color1);
+    height: 50%;
+    width: 50%;
+}
+
 #images-container {
     display: flex;
     margin-bottom: 4px;
@@ -218,3 +229,51 @@ footer {
     height: 300px;
     margin-right: 5px; /* Add margin to the right of each image */
 }
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    position: relative;
+    margin: 0 auto; /* Center horizontally */
+    background-color: var(--day-color4);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: var(--day-color5);
+  }
+  
+  .content {
+    padding: 0 18px;
+    background-color: var(--day-color6);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .collapsible:after {
+    content: '+'; /* for "plus" sign (+) */
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "-"; /* for "minus" sign (-) */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .work-experience-container{
+    position: relative;
+  }
