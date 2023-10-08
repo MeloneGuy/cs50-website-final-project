@@ -1,15 +1,16 @@
 /* Style colors used */
 :root {
     --shared-color1: #767a81;
+    --shared-color2: white;
 
     --day-color1: #80D8FF;
     --day-color2: #998c00;
     --day-color3: #FFEA00;
 
     /*Work Experience collapsible colors*/
-    --day-color4: #006da8;
-    --day-color5: #0096e7;
-    --day-color6: #00527e;
+    --day-color4: #006ca7;
+    --day-color5: #48b6e5;
+    --day-color6: #004164;
 
     --night-color1: #1a191d;
     --night-color2: #37474F;
