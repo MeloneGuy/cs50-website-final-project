@@ -52,18 +52,6 @@
     color: white;
 }
 
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-    position: absolute;
-    /* Position it absolutely within .topnav */
-    top: 50%;
-    /* Center it vertically */
-    right: 16px;
-    /* Adjust the right margin as needed */
-    transform: translateY(-50%);
-    /* Vertically center it using translateY */
-}
-
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
 @media screen and (max-width: 600px) {
 
@@ -86,7 +74,7 @@
 /* Slider styles */
 .slider {
     position: fixed;
-    left: 150px;
+    right: 10px;
     top: 10px;
     height: 30px;
     width: 90px;
