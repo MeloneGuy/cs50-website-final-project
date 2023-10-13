@@ -52,23 +52,6 @@
     color: white;
 }
 
-/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
-@media screen and (max-width: 600px) {
-
-    .topnav a,
-    .topnav-right {
-        float: none;
-        display: block;
-    }
-
-    .topnav-centered a {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
-    }
-}
-
 /* Slider in top navigation bar for day & night style */
 
 /* Slider styles */
@@ -145,6 +128,7 @@
 
 
 body,
+main,
 html {
     height: 100%;
     background-color: var(--night-color1);
@@ -174,8 +158,7 @@ header {
 }
 
 /* Shared Styles for Paragraphs and Footer */
-p,
-footer {
+p {
     color: var(--shared-color1);
     /* Light gray <p> text */
     max-width: 600px;
@@ -185,7 +168,7 @@ footer {
     margin-right: auto;
 }
 
-.skills_skill {
+.skills_item {
     display: inline-block;
     padding: 3px 6px;
     margin-right: 4px;
@@ -281,13 +264,26 @@ footer {
     border-radius: 5px;
 }
 
-
-.parallax {
-    /* The image used */
-    background-image: url("img_parallax.jpg");
+.parallax-day {
+    /* The image used is an example! */
+    background-image: url("../images/backgrounds/sun.jpg");
   
-    /* Full height */
-    height: 100%;
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.parallax-night {
+    /* The image used is an example! */
+    background-image: url("../images/backgrounds/moon.jpg");
+  
+    /* Set a specific height */
+    height: 50%;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

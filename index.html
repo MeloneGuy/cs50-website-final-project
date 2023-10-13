@@ -4,8 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to MeloneGuy.Dev - Your Portal to My World! Explore my portfolio and toggle between 'Day 🌟' and 'Night 🌙' modes to discover two unique perspectives. By day, you'll find career insights and achievements. At night, dive into my personal interests and creative pursuits. Enjoy the journey!">
+    <meta name="author" content="Timothy Platteschorre">
+    <meta name="keywords"
+        content="Timothy Platteschorre, MeloneGuy.Dev, Portfolio, Day and Night, Career, Personal Interests, Technical Skills, Work Experience, Certifications, Socials, Interpersonal Skills, Hobbies, Quotes">
     <title>Timothy Platteschorre</title>
     <link rel="stylesheet" type="text/css" href="shared/css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -39,9 +45,11 @@
         </div>
 
         <!-- div for day page-->
-        <div class="day">
+        <div class="day" style="height:100%;">
+            <div class="parallax-day"></div>
             <!-- About me professionally introduction section -->
             <article id="introday">
+                <!-- Container element -->
                 <section>
                     <h2>About me professionally</h2>
                     <p>I have an unquenchable thirst for knowledge and curiosity that drives me to explore
@@ -56,27 +64,27 @@
                 <section class="skills-container">
                     <h2>Technical skills</h2>
                     <ul>
-                        <li class="skills_skill">Test Automation</li>
-                        <li class="skills_skill">API Testing</li>
-                        <li class="skills_skill">Tosca TestSuite</li>
-                        <li class="skills_skill">Cypress</li>
-                        <li class="skills_skill">Playwright</li>
-                        <li class="skills_skill">JavaScript</li>
-                        <li class="skills_skill">TypeScript</li>
-                        <li class="skills_skill">HTML</li>
-                        <li class="skills_skill">CSS</li>
-                        <li class="skills_skill">Python</li>
-                        <li class="skills_skill">Web APIs</li>
-                        <li class="skills_skill">Git</li>
-                        <li class="skills_skill">Jenkins</li>
-                        <li class="skills_skill">Azure DevOps</li>
-                        <li class="skills_skill">Allure</li>
-                        <li class="skills_skill">PowerBi</li>
-                        <li class="skills_skill">SQL</li>
-                        <li class="skills_skill">Agile Methodologies</li>
-                        <li class="skills_skill">Test Data Management</li>
-                        <li class="skills_skill">Collaboration</li>
-                        <li class="skills_skill">Communication</li>
+                        <li class="skills_item">Test Automation</li>
+                        <li class="skills_item">API Testing</li>
+                        <li class="skills_item">Tosca TestSuite</li>
+                        <li class="skills_item">Cypress</li>
+                        <li class="skills_item">Playwright</li>
+                        <li class="skills_item">JavaScript</li>
+                        <li class="skills_item">TypeScript</li>
+                        <li class="skills_item">HTML</li>
+                        <li class="skills_item">CSS</li>
+                        <li class="skills_item">Python</li>
+                        <li class="skills_item">Web APIs</li>
+                        <li class="skills_item">Git</li>
+                        <li class="skills_item">Jenkins</li>
+                        <li class="skills_item">Azure DevOps</li>
+                        <li class="skills_item">Allure</li>
+                        <li class="skills_item">PowerBi</li>
+                        <li class="skills_item">SQL</li>
+                        <li class="skills_item">Agile Methodologies</li>
+                        <li class="skills_item">Test Data Management</li>
+                        <li class="skills_item">Collaboration</li>
+                        <li class="skills_item">Communication</li>
                     </ul>
                 </section>
             </article>
@@ -128,33 +136,46 @@
                         <div id="image-track">
                             <!--TMAP-->
                             <img class="image" src="shared/images/certificates/TMAP.webp"
-                                alt="TMAP Quality for cross-functional teams" draggable="false" />
+                                alt="TMAP Quality for cross-functional teams" draggable="false">
                             <!--Advanced Cypress-->
-                            <img class="image" src="shared/images/certificates/Advanced_Cypress.webp" alt="Advanced Cypress"
-                                draggable="false" />
+                            <img class="image" src="shared/images/certificates/Advanced_Cypress.webp"
+                                alt="Advanced Cypress" draggable="false">
                             <!--Tosca Architect-->
-                            <img class="image" src="shared/images/certificates/Tosca_Test_Architect.webp" alt="Tosca Test Architect"
-                                draggable="false" />
+                            <img class="image" src="shared/images/certificates/Tosca_Test_Architect.webp"
+                                alt="Tosca Test Architect" draggable="false">
                             <!--Advanced Playwright-->
-                            <img class="image" src="shared/images/certificates/Advanced_Playwright.webp" alt="Advanced Playwright"
-                                draggable="false" />
+                            <img class="image" src="shared/images/certificates/Advanced_Playwright.webp"
+                                alt="Advanced Playwright" draggable="false">
                             <!--Advanced Playwright-->
-                            <img class="image" src="shared/images/certificates/PSM-I.webp" alt="Professional Scrum Master 1"
-                                draggable="false" />
+                            <img class="image" src="shared/images/certificates/PSM-I.webp"
+                                alt="Professional Scrum Master 1" draggable="false">
                             <!--AZ-900-->
                             <img class="image" src="shared/images/certificates/AZ900-Azure_Fundamentals.webp"
-                                alt="AZ-900 Azure Fundamentals" draggable="false" />
+                                alt="AZ-900 Azure Fundamentals" draggable="false">
                             <!--Harvard CS50x Computer Science-->
                             <img class="image" src="shared/images/certificates/cs50-harvard-template.webp"
-                                alt="Harvard CS50x Introduction to Computer Science" draggable="false" />
+                                alt="Harvard CS50x Introduction to Computer Science" draggable="false">
                         </div>
                     </div>
+                </section>
+            </article>
+
+            <article>
+                <section>
+                    <h2>Let's connect!</h2>
+                    <p>More socials where you can find me:</p>
+                    <!-- Socials-->
+                    <a href="https://www.linkedin.com/in/timothyplatteschorre/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/MeloneGuy" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://testautomationu.applitools.com/me.html#MeloneGuy" target="_blank" rel="noopener noreferrer">Test Automation
+                        University</a>
                 </section>
             </article>
         </div>
 
         <!-- div for night page-->
-        <div class="night">
+        <div class="night" style="height:100%;">
+            <div class="parallax-night"></div>
             <!-- Introtext Night-->
             <article id="intronight">
                 <!-- About me personally introduction section -->
@@ -288,30 +309,23 @@
                         focus, qualities that I believe are essential.</p>
                 </section>
             </article>
+
+            <article>
+                <section>
+                    <h2>Let's connect!</h2>
+                    <p>More socials where you can find me:</p>
+                    <!-- Socials-->
+                    <a href="https://www.linkedin.com/in/timothyplatteschorre/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/MeloneGuy" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://testautomationu.applitools.com/me.html#MeloneGuy" target="_blank" rel="noopener noreferrer">Test Automation
+                        University</a>
+                </section>
+            </article>
         </div>
-
-        <article>
-            <section>
-                <h2>Let's connect!</h2>
-                <p>More channels where you can find me:</p>
-                <!-- Socials-->
-                <a href="https://www.linkedin.com/in/timothyplatteschorre/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/MeloneGuy" target="_blank">Github</a>
-                <a href="https://testautomationu.applitools.com/me.html#MeloneGuy" target="_blank">Test Automation
-                    University</a>
-            </section>
-        </article>
     </main>
-
-    <footer>
-        &copy; 2023 Timothy Platteschorre
-    </footer>
-
     <script src="shared/js/slider.js"></script>
     <script src="shared/js/imagetrack.js"></script>
     <script src="shared/js/collapsible.js"></script>
-
-
 </body>
 
 </html>
