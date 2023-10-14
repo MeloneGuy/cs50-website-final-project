@@ -148,6 +148,7 @@ h3 {
     padding: 0;
 }
 
+/*used for spacing after parallax effect on top of page*/
 h2.belowparallax {
     color: #fffeff;
     /* White headers */
@@ -170,8 +171,19 @@ h2.belowparallax {
     height: 20%;
 }
 
-/* Shared Styles for Paragraphs and Footer */
+
 p {
+    color: var(--shared-color2);
+    /* Light gray <p> text */
+    max-width: 600px;
+    /* Adjust the maximum width as needed */
+    margin-left: auto;
+    /* Center-align the <p> elements on the page */
+    margin-right: auto;
+}
+
+/* Shared Styles for Paragraphs and Footer */
+p.night {
     color: var(--shared-color1);
     /* Light gray <p> text */
     max-width: 600px;
@@ -311,5 +323,4 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 200px;
 }
