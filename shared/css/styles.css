@@ -138,14 +138,12 @@ html {
 
 /* Styles for Header Elements (h1, h2, h3, etc.) */
 h1,
-h2 {
+h2,
+h3 {
     color: #fffeff;
     /* White headers */
     text-align: center;
-}
-
-h3 .night {
-    color: var(--night-color2);
+    color: white;
 }
 
 header {
@@ -187,6 +185,10 @@ p {
     background: var(--shared-color1);
     height: 50%;
     width: 50%;
+}
+
+.skills-header{
+    color: var(--night-color1);
 }
 
 #images-container {
