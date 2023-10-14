@@ -31,38 +31,44 @@
 
     <main>
         <!-- div that is mutual for day and night page-->
-        <div class="mutual">
+        <div class="mutual" style="height: 100%;">
+            <div class="parallax-day"></div>
             <header>
                 <h1 class="white-text">Welcome to MeloneGuy.Dev - Your Portal to My World!</h1>
             </header>
-            <article id="intromutual">
-                <section>
+            <article>
                     <p>Explore my portfolio and toggle between 'Day 🌟' and 'Night 🌙' modes to discover two unique
                         perspectives. By day, you'll find career insights and achievements. At night, dive into my
                         personal interests and creative pursuits. Enjoy the journey!</p>
-                </section>
             </article>
-        </div>
 
-        <!-- div for day page-->
-        <div class="day" style="height:100%;">
-            <div class="parallax-day"></div>
             <!-- About me professionally introduction section -->
-            <article id="introday">
+            <article class="day">
                 <!-- Container element -->
-                <section>
                     <h2>About me professionally</h2>
                     <p>I have an unquenchable thirst for knowledge and curiosity that drives me to explore
                         a diverse array of subjects. Whether I'm embarking on a new work project, honing my expertise,
                         or tackling a fresh challenge, my passion for learning is at the forefront of everything I do.
                     </p>
-                </section>
             </article>
 
+            <!-- Introtext Night-->
+            <article class="night">
+                <!-- About me personally introduction section -->
+                    <h2>About me personally</h2>
+                    <p>On a personal level, I'm an enthusiastic seeker of knowledge who delights in the discovery of new
+                        horizons. Whether it's pursuing a new hobby, immersing myself in a project, or unraveling the
+                        mysteries of the world, my boundless curiosity fuels my sense of wonder and adventure.</p>
+            </article>
+            <div class="parallax-night"></div>
+        </div>
+
+        <!-- div for day page-->
+        <div class="day">
             <!-- Technical skills section -->
             <article id="technicalskills">
                 <section>
-                    <h2>Technical skills</h2>
+                    <h2 class="belowparallax">Technical skills</h2>
                     <ul>
                         <li class="skills_item">Test Automation</li>
                         <li class="skills_item">API Testing</li>
@@ -99,8 +105,8 @@
                             understand the dynamics of customer engagement and market strategies. It laid the groundwork
                             for my future roles in tech.</p>
                     </div>
-                    
-                <!-- Experience part 2: Junior to Senior Quality Engineer -->
+
+                    <!-- Experience part 2: Junior to Senior Quality Engineer -->
                     <button type="button" class="collapsible">Junior to Senior Test Automation / Quality
                         Engineer</button>
                     <div class="content">
@@ -113,7 +119,7 @@
                             excellence in their work.</p>
                     </div>
 
-                <!-- Aspiring Experience: Aspiring Engineering Manager -->
+                    <!-- Aspiring Experience: Aspiring Engineering Manager -->
                     <button type="button" class="collapsible">Aspiring to be Engineering Manager</button>
                     <div class="content">
                         <p>My career aspirations have evolved, and I'm currently on a journey to become an Engineering
@@ -161,31 +167,21 @@
                     <h2>Let's connect!</h2>
                     <p>More socials where you can find me:</p>
                     <!-- Socials-->
-                    <a href="https://www.linkedin.com/in/timothyplatteschorre/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/timothyplatteschorre/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a>
                     <a href="https://github.com/MeloneGuy" target="_blank" rel="noopener noreferrer">Github</a>
-                    <a href="https://testautomationu.applitools.com/me.html#MeloneGuy" target="_blank" rel="noopener noreferrer">Test Automation
+                    <a href="https://testautomationu.applitools.com/me.html#MeloneGuy" target="_blank"
+                        rel="noopener noreferrer">Test Automation
                         University</a>
                 </section>
             </article>
         </div>
 
         <!-- div for night page-->
-        <div class="night" style="height:100%;">
-            <div class="parallax-night"></div>
-            <!-- Introtext Night-->
-            <article id="intronight">
-                <!-- About me personally introduction section -->
-                <section>
-                    <h2>About me personally</h2>
-                    <p>On a personal level, I'm an enthusiastic seeker of knowledge who delights in the discovery of new
-                        horizons. Whether it's pursuing a new hobby, immersing myself in a project, or unraveling the
-                        mysteries of the world, my boundless curiosity fuels my sense of wonder and adventure.</p>
-                </section>
-            </article>
-
+        <div class="night">
             <!-- Interpersonal skills section -->
             <article>
-                <h2>Interpersonal skills</h2>
+                <h2 class="belowparallax">Interpersonal skills</h2>
                 <section class="grid-container">
                     <section class="grid-card">
                         <h3 class="skills-header">Optimism</h3>
@@ -257,7 +253,7 @@
                         <h3>Quote 2</h3>
                         <p>"If you don't look back and think you were dumb then you haven't learned anything."</p>
                     </section>
-                    
+
                     <!-- Quote 3 -->
                     <section>
                         <h3>Quote 3</h3>
@@ -311,9 +307,11 @@
                     <h2>Let's connect!</h2>
                     <p>More socials where you can find me:</p>
                     <!-- Socials-->
-                    <a href="https://www.linkedin.com/in/timothyplatteschorre/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/timothyplatteschorre/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a>
                     <a href="https://github.com/MeloneGuy" target="_blank" rel="noopener noreferrer">Github</a>
-                    <a href="https://testautomationu.applitools.com/me.html#MeloneGuy" target="_blank" rel="noopener noreferrer">Test Automation
+                    <a href="https://testautomationu.applitools.com/me.html#MeloneGuy" target="_blank"
+                        rel="noopener noreferrer">Test Automation
                         University</a>
                 </section>
             </article>

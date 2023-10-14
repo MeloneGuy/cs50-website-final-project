@@ -12,8 +12,10 @@
     --day-color5: #48b6e5;
     --day-color6: #004164;
 
-    --night-color1: #1a191d; /*unused?*/
-    --night-color2: #37474F; /*bg slider skills section*/
+    --night-color1: #1a191d;
+    /*unused?*/
+    --night-color2: #37474F;
+    /*bg slider skills section*/
 }
 
 /* Top Navigation Bar Section */
@@ -143,10 +145,15 @@ h3 {
     /* White headers */
     text-align: center;
     color: white;
+    padding: 0;
 }
 
-header {
-    padding-top: 50px;
+h2.belowparallax {
+    color: #fffeff;
+    /* White headers */
+    text-align: center;
+    color: white;
+    padding-top: 10%;
 }
 
 .day {
@@ -155,6 +162,12 @@ header {
 
 .night {
     display: none;
+}
+
+.mutual {
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
 }
 
 /* Shared Styles for Paragraphs and Footer */
@@ -180,7 +193,7 @@ p {
     color: white;
 }
 
-.skills-header{
+.skills-header {
     color: var(--night-color1);
 }
 
@@ -268,35 +281,35 @@ p {
 .parallax-day {
     /* The image used is an example! */
     background-image: url("../images/backgrounds/AI-sun.webp");
-  
+
     /* Set a specific height */
-    height: 80%;
-  
+    height: 40%;
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
 .parallax-night {
     /* The image used is an example! */
     background-image: url("../images/backgrounds/AI-moon.webp");
-  
+
     /* Set a specific height */
-    height: 80%;
-  
+    height: 40%;
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  section {
+section {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 400px;
-  }
+    min-height: 200px;
+}
