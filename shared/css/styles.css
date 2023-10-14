@@ -16,7 +16,6 @@
     --night-color2: #37474F;
 }
 
-
 /* Top Navigation Bar Section */
 
 /* Add a black background color to the top navigation */
@@ -26,8 +25,9 @@
     top: 0;
     /* Position it at the top of the viewport */
     width: 100%;
+    z-index: 1;
+    border-radius: 0;
     /* Make it span the full width of the viewport */
-    background-color: transparent;
     overflow: hidden;
 }
 
@@ -138,11 +138,14 @@ html {
 
 /* Styles for Header Elements (h1, h2, h3, etc.) */
 h1,
-h2,
-h3 {
+h2 {
     color: #fffeff;
     /* White headers */
     text-align: center;
+}
+
+h3 .night {
+    color: var(--night-color2);
 }
 
 header {
@@ -260,8 +263,11 @@ p {
 .grid-card {
     background: #f5f5f5;
     border: 1px solid #ccc;
-    padding: 20px;
+    /* padding: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 5px;
+    text-align: center;
 }
 
 .parallax-day {
@@ -280,7 +286,7 @@ p {
 
 .parallax-night {
     /* The image used is an example! */
-    background-image: url("../images/backgrounds/moon.jpg");
+    background-image: url("../images/backgrounds/AI-moon.webp");
   
     /* Set a specific height */
     height: 50%;
