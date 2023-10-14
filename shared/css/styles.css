@@ -141,20 +141,19 @@ html {
 h1,
 h2,
 h3 {
-    color: #fffeff;
+    color: black;
     /* White headers */
     text-align: center;
-    color: white;
     padding: 0;
 }
 
-/*used for spacing after parallax effect on top of page*/
-h2.belowparallax {
-    color: #fffeff;
+h1.nightheader,
+h2.nightheader,
+h3.nightheader {
+    color: white;
     /* White headers */
     text-align: center;
-    color: white;
-    padding-top: 10%;
+    padding: 0;
 }
 
 .day {
@@ -165,6 +164,14 @@ h2.belowparallax {
     display: none;
 }
 
+div.day {
+    background-color: white;
+}
+
+div.night {
+    background-color: var(--night-color1);
+}
+
 .mutual {
     flex-direction: column;
     align-items: center;
@@ -173,7 +180,7 @@ h2.belowparallax {
 
 
 p {
-    color: var(--shared-color2);
+    color: var(--shared-color1);
     /* Light gray <p> text */
     max-width: 600px;
     /* Adjust the maximum width as needed */
@@ -253,6 +260,10 @@ p.night {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+.content-text {
+    color:white;
 }
 
 .collapsible:after {
