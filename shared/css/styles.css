@@ -12,8 +12,8 @@
     --day-color5: #48b6e5;
     --day-color6: #004164;
 
-    --night-color1: #1a191d;
-    --night-color2: #37474F;
+    --night-color1: #1a191d; /*unused?*/
+    --night-color2: #37474F; /*bg slider skills section*/
 }
 
 /* Top Navigation Bar Section */
@@ -270,7 +270,7 @@ p {
     background-image: url("../images/backgrounds/AI-sun.webp");
   
     /* Set a specific height */
-    height: 50%;
+    height: 80%;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -284,7 +284,7 @@ p {
     background-image: url("../images/backgrounds/AI-moon.webp");
   
     /* Set a specific height */
-    height: 50%;
+    height: 80%;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -298,4 +298,5 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 400px;
   }
