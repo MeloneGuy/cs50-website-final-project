@@ -132,7 +132,7 @@
 body,
 main,
 html {
-    height: 100%;
+    min-height: 100vh;
     background-color: var(--night-color1);
     margin: 0;
 }
@@ -308,7 +308,7 @@ p.night {
     background-image: url("../images/backgrounds/AI-sun.webp");
 
     /* Set a specific height */
-    height: 40%;
+    height: 30vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -322,7 +322,7 @@ p.night {
     background-image: url("../images/backgrounds/AI-moon.webp");
 
     /* Set a specific height */
-    height: 40%;
+    height: 40vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
