@@ -133,7 +133,6 @@ body,
 main,
 html {
     min-height: 100vh;
-    background-color: var(--night-color1);
     margin: 0;
 }
 
@@ -306,7 +305,7 @@ p.night {
     background-image: url("../images/backgrounds/AI-sun.webp");
 
     /* Set a specific height */
-    height: 30vh;
+    height: 40vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
