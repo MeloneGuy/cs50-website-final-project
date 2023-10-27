@@ -10,7 +10,7 @@
     /*Work Experience collapsible colors*/
     --day-color4: #006ca7;
     --day-color5: #48b6e5;
-    --day-color6: #004164;
+    --day-color6: #75634C;
 
     --night-color1: #1a191d;
     /*unused?*/
@@ -232,9 +232,6 @@ p.night {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-    position: relative;
-    margin: 0 auto;
-    /* Center horizontally */
     background-color: var(--day-color4);
     color: white;
     cursor: pointer;
@@ -253,11 +250,13 @@ p.night {
 }
 
 .content {
-    padding: 0 18px;
+    padding: 0px;
     background-color: var(--day-color6);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    width: 60%;
+
 }
 
 .content-text {
