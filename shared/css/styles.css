@@ -198,6 +198,19 @@ p.night {
     margin-right: auto;
 }
 
+p.quote {
+    color: var(--shared-color2);
+    max-width: 800px;
+    /* Adjust the maximum width as needed */
+    margin-left: auto;
+    /* Center-align the <p> elements on the page */
+    margin-right: auto;
+}
+
+p.centered {
+    text-align: center;
+}
+
 .skills_item {
     display: inline-block;
     padding: 3px 6px;
@@ -348,4 +361,18 @@ section {
     /* Optional, for vertical alignment */
     justify-content: space-around;
     /* Adjust this as needed to control spacing between items */
+}
+
+blockquote p.quote::before,
+blockquote p.quote::after {
+    content: "“";
+    font-size: 4rem;
+    margin: -18px 0 0 -36px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+blockquote p.quote::after {
+    content: "”";
+    margin: 0 -72px 0 0;
 }
