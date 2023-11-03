@@ -325,7 +325,7 @@ p.centered {
     background-image: url("../images/backgrounds/AI-sun.webp");
 
     /* Set a specific height */
-    height: 40vh;
+    height: 42vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -339,7 +339,7 @@ p.centered {
     background-image: url("../images/backgrounds/AI-moon.webp");
 
     /* Set a specific height */
-    height: 40vh;
+    height: 45vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
