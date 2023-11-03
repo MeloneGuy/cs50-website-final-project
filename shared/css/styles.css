@@ -8,9 +8,8 @@
     --day-color3: #FFEA00;
 
     /*Work Experience collapsible colors*/
-    --day-color4: #2450A6;
+    --day-color4: #15238f;
     --day-color5: #0388A6;
-    --day-color6: #3470BF;
 
     --night-color1: #1a191d;
     /*unused?*/
@@ -163,7 +162,7 @@ h3.nightheader {
 }
 
 div.day {
-    background-color: white;
+    background-color: var(--shared-color2);
 }
 
 div.night {
@@ -176,6 +175,9 @@ div.night {
     height: 20%;
 }
 
+article.nightwhitestars {
+    background-color: var(--shared-color2);
+}
 
 p {
     color: var(--shared-color1);
@@ -214,10 +216,10 @@ p.centered {
 .skills_item {
     display: inline-block;
     padding: 3px 6px;
-    margin-right: 4px;
-    margin-bottom: 4px;
+    margin-right: 6px;
+    margin-bottom: 6px;
     font-size: 14px;
-    background: var(--night-color2);
+    background: var(--day-color5);
     border-radius: 5px;
     font-weight: 600;
     color: white;
@@ -243,6 +245,13 @@ p.centered {
     /* Add margin to the right of each image */
 }
 
+.pandaimage {
+    position: absolute;
+    right: -20vh;
+    top: -30px;
+    width: 100px;
+}
+
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
     background-color: var(--day-color4);
@@ -264,7 +273,7 @@ p.centered {
 
 .content {
     padding: 0px;
-    background-color: var(--day-color6);
+    background-color: var(--night-color1);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -339,6 +348,20 @@ p.centered {
     background-size: cover;
 }
 
+.parallax-stars {
+    /* The image used is an example! */
+    background-image: url("../images/backgrounds/background-stars.png");
+
+    /* Set a specific height */
+    height: 10vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 section {
     position: relative;
     display: flex;
@@ -375,4 +398,28 @@ blockquote p.quote::after {
 blockquote p.quote::after {
     content: "”";
     margin: 0 -72px 0 0;
+}
+
+.spacer {
+    aspect-ratio: 1000/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('../images/svgdividers/wave1.svg');
+}
+
+.layer2 {
+    background-image: url('../images/svgdividers/wave2.svg');
+}
+
+.layer3 {
+    background-image: url('../images/svgdividers/wave3.svg');
+}
+
+.layer4 {
+    background-image: url('../images/svgdividers/wave4.svg');
 }
