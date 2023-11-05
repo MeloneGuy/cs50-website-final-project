@@ -1,8 +1,21 @@
 const imageTrack = document.getElementById("image-track");
 const imagesContainer = document.getElementById("images-container");
+const scrollLeftButton = document.getElementById("scroll-left");
+const scrollRightButton = document.getElementById("scroll-right");
+
 let isDragging = false;
 let startX;
 let scrollLeft;
+
+// Scroll to the left
+scrollLeftButton.addEventListener("click", () => {
+    imagesContainer.scrollLeft -= 440; // Adjust the scroll amount as needed
+});
+
+// Scroll to the right
+scrollRightButton.addEventListener("click", () => {
+    imagesContainer.scrollLeft += 440; // Adjust the scroll amount as needed
+});
 
 imageTrack.addEventListener("mousedown", (e) => {
     isDragging = true;

@@ -452,3 +452,29 @@ blockquote p.quote::after {
 .layer6 {
     background-image: url('../images/svgdividers/wave6.svg');
 }
+
+.scroll-button {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    background: var(--night-color1);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.scroll-button:hover {
+    background-color: var(--day-color4);
+}
+
+.scroll-button.left {
+    left: 10px;
+}
+
+.scroll-button.right {
+    right: 10px;
+}
