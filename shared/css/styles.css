@@ -246,14 +246,16 @@ p.centered {
     margin-bottom: 4px;
     overflow-x: hidden;
     /* Hide the horizontal scrollbar */
-    width: 100%;
+    width: 80vw;
     white-space: nowrap;
 }
 
 .image {
-    width: auto;
-    height: 300px;
-    margin-right: 10px;
+    width: 39vw;
+    height: 35vh;
+    object-fit: fill;
+    padding: 0.5vw;
+    /* padding-right: 1vw; */
     /* Add margin to the right of each image */
 }
 
