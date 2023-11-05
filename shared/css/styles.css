@@ -35,22 +35,11 @@
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: white;
+    color: var(--shared-color2);
     text-align: left;
     padding: 20px 16px;
     text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: white;
-    color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    color: white;
+    font-size: 30px;
 }
 
 /* Slider in top navigation bar for day & night style */
