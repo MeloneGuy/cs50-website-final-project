@@ -254,7 +254,7 @@ p.centered {
     width: 39vw;
     height: 35vh;
     object-fit: fill;
-    padding: 0.5vw;
+    padding: 0.6vw;
     /* padding-right: 1vw; */
     /* Add margin to the right of each image */
 }
