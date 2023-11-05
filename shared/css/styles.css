@@ -260,6 +260,12 @@ p.centered {
     width: 100px;
 }
 
+.hobbiesimage-left {
+    position: absolute;
+    left: -25vh;
+    width: 200px;
+}
+
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
     background-color: var(--day-color4);
