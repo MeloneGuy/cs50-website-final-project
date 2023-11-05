@@ -266,9 +266,8 @@ p.centered {
     width: 100px;
 }
 
-.hobbiesimage-left {
-    position: absolute;
-    left: -25vh;
+.levelup-image {
+    position: relative;
     width: 200px;
 }
 
