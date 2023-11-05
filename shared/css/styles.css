@@ -189,6 +189,14 @@ p {
     margin-right: auto;
 }
 
+ul {
+    max-width: 700px;
+    /* Adjust the maximum width as needed */
+    margin-left: auto;
+    /* Center-align the <p> elements on the page */
+    margin-right: auto;
+}
+
 /* Shared Styles for Paragraphs and Footer */
 p.night {
     color: var(--shared-color1);
@@ -283,6 +291,7 @@ p.centered {
 
 .content-text {
     color: white;
+    width: 100%;
 }
 
 .collapsible:after {
