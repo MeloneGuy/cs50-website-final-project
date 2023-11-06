@@ -8,7 +8,7 @@
     --day-color3: #FFEA00;
 
     /*Work Experience collapsible colors*/
-    --day-color4: #15238f;
+    --day-color4: #006fad;
     --day-color5: #0388A6;
 
     --night-color1: #1a191d;
@@ -462,9 +462,9 @@ blockquote p.quote::after {
 }
 
 .scroll-button.left {
-    left: 10px;
+    left: 15px;
 }
 
 .scroll-button.right {
-    right: 10px;
+    right: 15px;
 }
