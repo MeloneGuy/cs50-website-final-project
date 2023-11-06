@@ -123,12 +123,10 @@ html {
     margin: 0;
 }
 
-/* Styles for Header Elements (h1, h2, h3, etc.) */
 h1,
 h2,
 h3 {
     color: black;
-    /* White headers */
     text-align: center;
     padding: 0;
 }
@@ -137,7 +135,6 @@ h1.nightheader,
 h2.nightheader,
 h3.nightheader {
     color: white;
-    /* White headers */
     text-align: center;
     padding: 0;
 }
@@ -174,39 +171,28 @@ article.nightblackstars {
 
 p {
     color: var(--shared-color1);
-    /* Light gray <p> text */
     max-width: 600px;
-    /* Adjust the maximum width as needed */
     margin-left: auto;
-    /* Center-align the <p> elements on the page */
     margin-right: auto;
 }
 
 ul {
     max-width: 700px;
-    /* Adjust the maximum width as needed */
     margin-left: auto;
-    /* Center-align the <p> elements on the page */
     margin-right: auto;
 }
 
-/* Shared Styles for Paragraphs and Footer */
 p.night {
     color: var(--shared-color1);
-    /* Light gray <p> text */
     max-width: 600px;
-    /* Adjust the maximum width as needed */
     margin-left: auto;
-    /* Center-align the <p> elements on the page */
     margin-right: auto;
 }
 
 p.quote {
     color: var(--shared-color2);
     max-width: 800px;
-    /* Adjust the maximum width as needed */
     margin-left: auto;
-    /* Center-align the <p> elements on the page */
     margin-right: auto;
 }
 
@@ -234,7 +220,6 @@ p.centered {
     display: flex;
     margin-bottom: 4px;
     overflow-x: hidden;
-    /* Hide the horizontal scrollbar */
     width: 80vw;
     white-space: nowrap;
 }
@@ -244,8 +229,6 @@ p.centered {
     height: 35vh;
     object-fit: fill;
     padding: 0.6vw;
-    /* padding-right: 1vw; */
-    /* Add margin to the right of each image */
 }
 
 .pandaimage {
