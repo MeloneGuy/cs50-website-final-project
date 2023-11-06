@@ -13,15 +13,15 @@ function toggle() {
     slider_accent.classList.replace("light", "dark");
     slider_toggle.classList.replace("light", "dark");
 
-    night.forEach(a=>a.style.display = "block");
-    day.forEach(a=>a.style.display = "none");
+    night.forEach((a) => (a.style.display = "block"));
+    day.forEach((a) => (a.style.display = "none"));
   } else {
     // Replaces slider.dark to slider.light theme
     slider.classList.replace("dark", "light");
     slider_accent.classList.replace("dark", "light");
     slider_toggle.classList.replace("dark", "light");
 
-    day.forEach(a=>a.style.display = "block");
-    night.forEach(a=>a.style.display = "none");
+    day.forEach((a) => (a.style.display = "block"));
+    night.forEach((a) => (a.style.display = "none"));
   }
 }
