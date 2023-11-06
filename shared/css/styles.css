@@ -238,6 +238,13 @@ p.centered {
   width: 100px;
 }
 
+.melonimage {
+  position: absolute;
+  left: -25vh;
+  top: -60px;
+  width: 200px;
+}
+
 .levelup-image {
   position: relative;
   width: 200px;
