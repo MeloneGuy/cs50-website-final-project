@@ -13,7 +13,7 @@
 
   --night-color1: #1a191d;
   --night-color2: #37474f;
-  --night-color3: #FB3D46;
+  --night-color3: #fb3d46;
   /*bg slider skills section*/
 }
 
@@ -242,9 +242,10 @@ p.centered {
 
 .melonimage {
   position: absolute;
-  left: -25vh;
-  top: -45px;
-  width: 200px;
+  left: -20vw;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 240px;
 }
 
 .levelup-image {
