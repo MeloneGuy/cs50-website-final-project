@@ -12,8 +12,8 @@
   --day-color5: #0388a6;
 
   --night-color1: #1a191d;
-  /*unused?*/
   --night-color2: #37474f;
+  --night-color3: #FB3D46;
   /*bg slider skills section*/
 }
 
@@ -172,6 +172,7 @@ article.nightblackstars {
 
 p {
   color: var(--shared-color1);
+  font-size: 1rem;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -206,7 +207,7 @@ p.centered {
   padding: 3px 6px;
   margin-right: 6px;
   margin-bottom: 6px;
-  font-size: 14px;
+  font-size: 0.9rem;
   background: var(--day-color5);
   border-radius: 5px;
   font-weight: 600;
@@ -242,7 +243,7 @@ p.centered {
 .melonimage {
   position: absolute;
   left: -25vh;
-  top: -60px;
+  top: -45px;
   width: 200px;
 }
 
@@ -262,7 +263,7 @@ p.centered {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -288,7 +289,7 @@ p.centered {
 
 .collapsible:after {
   content: "+";
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: bold;
   color: white;
   float: right;
@@ -298,7 +299,7 @@ p.centered {
 .active:after {
   content: "-";
   color: white;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -431,6 +432,10 @@ blockquote p.quote::after {
 
 .layer6 {
   background-image: url("../images/svgdividers/wave6.svg");
+}
+
+.layer7 {
+  background-image: url("../images/svgdividers/wave7.svg");
 }
 
 .scroll-button {
