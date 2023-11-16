@@ -119,6 +119,7 @@
 body,
 main,
 html {
+  font-family: Times New Roman, sans-serif;
   min-height: 100vh;
   margin: 0;
 }
