@@ -225,6 +225,7 @@ p.centered {
   overflow-x: hidden;
   width: 80vw;
   white-space: nowrap;
+  cursor: grab;
 }
 
 .image {
