@@ -239,9 +239,9 @@ p.centered {
 
 .pandaimage {
   position: absolute;
-  right: -20vh;
-  top: -30px;
-  width: clamp(30px, 10vh, 100px);
+  top: -80px;
+  right: 0px;
+  width: clamp(30px, 10vh, 90px);
 }
 
 .melonimage {
