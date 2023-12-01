@@ -228,8 +228,8 @@ p.centered {
 }
 
 .image {
-  width: 39vw;
-  height: 32vh;
+  width: auto;
+  height: clamp(200px, 30vh, 400px);
   object-fit: fill;
   padding: 0.6vw;
 }
