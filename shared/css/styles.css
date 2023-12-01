@@ -232,7 +232,7 @@ p.centered {
 
 .image {
   width: auto;
-  height: clamp(200px, 30vh, 400px);
+  height: clamp(100px, 30vh, 400px);
   object-fit: fill;
   padding: 0.6vw;
 }

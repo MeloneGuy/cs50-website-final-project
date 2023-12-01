@@ -8,7 +8,7 @@ let startX;
 let scrollLeft;
 
 // Set the scroll fraction as a percentage of the viewport width
-const scrollFraction = 81; // Adjust this value as needed (10% of the viewport width in this example)
+const scrollFraction = 30; // Adjust this value as needed (10% of the viewport width in this example)
 
 // Calculate the scroll amount based on viewport width
 const vw = Math.max(
