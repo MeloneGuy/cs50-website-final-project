@@ -8,7 +8,7 @@ let startX;
 let scrollLeft;
 
 // Set the scroll fraction as a percentage of the viewport width
-const scrollFraction = 30; // Adjust this value as needed (10% of the viewport width in this example)
+const scrollFraction = 20; // Adjust this value as needed (10% of the viewport width in this example)
 
 // Calculate the scroll amount based on viewport width
 const vw = Math.max(
@@ -32,30 +32,46 @@ scrollRightButton.addEventListener("click", () => {
   imagesContainer.scrollLeft += scrollAmount;
 });
 
-imageTrack.addEventListener("mousedown", (e) => {
+// Function to handle the start of dragging
+const startDragging = (e) => {
   isDragging = true;
-  startX = e.clientX - imagesContainer.getBoundingClientRect().left;
+  startX = e.clientX || e.touches[0].clientX;
   scrollLeft = imagesContainer.scrollLeft;
   setCursorStyle(); // Set cursor style when dragging starts
-});
+};
 
-imageTrack.addEventListener("mouseleave", () => {
+// Function to handle the end of dragging
+const endDragging = () => {
   isDragging = false;
   setCursorStyle(); // Set cursor style when dragging ends
-});
+};
 
-imageTrack.addEventListener("mouseup", () => {
-  isDragging = false;
-  setCursorStyle(); // Set cursor style when dragging ends
-});
-
+// Event listeners for mouse events
+imageTrack.addEventListener("mousedown", startDragging);
+imageTrack.addEventListener("mouseleave", endDragging);
+imageTrack.addEventListener("mouseup", endDragging);
 imageTrack.addEventListener("mousemove", (e) => {
   if (!isDragging) return;
   e.preventDefault();
-  const x = e.clientX - imagesContainer.getBoundingClientRect().left;
+  const x = e.clientX || e.touches[0].clientX;
   const walk = (x - startX) * 2; // Adjust this value to control the scrolling speed
   imagesContainer.scrollLeft = scrollLeft - walk;
 });
+
+// Event listeners for touch events
+imageTrack.addEventListener("touchstart", (e) => {
+  startDragging(e.touches[0]);
+});
+
+imageTrack.addEventListener("touchmove", (e) => {
+  if (!isDragging) return;
+  e.preventDefault();
+  const x = e.touches[0].clientX;
+  const walk = (x - startX) * 2; // Adjust this value to control the scrolling speed
+  imagesContainer.scrollLeft = scrollLeft - walk;
+});
+
+imageTrack.addEventListener("touchend", endDragging);
 
 // Initial cursor style setup
 setCursorStyle();
