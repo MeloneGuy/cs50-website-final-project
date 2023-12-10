@@ -6,6 +6,9 @@ Created an example portfolio website where I told more about myself.
 Created with Javascript, CSS and HTML.
 Used plain HTML, Javascript and CSS on purpose to get familiar with using it during CS50x from Harvard.
 
+Always have been a big fan of a website having a switch between two modes. Besides that a big fan of parallax scrolling.
+Therefor I tried making these 2 features the main design for my portfolio.
+
 ## Key features:
 - Collapsibles.
 - Slider.
